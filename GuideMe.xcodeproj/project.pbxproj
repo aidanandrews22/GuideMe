@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DD52BBE92D74239000A3A43C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD52BBCF2D74238F00A3A43C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD52BBD62D74238F00A3A43C;
+			remoteInfo = GuideMe;
+		};
+		DD52BBF32D74239000A3A43C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD52BBCF2D74238F00A3A43C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD52BBD62D74238F00A3A43C;
+			remoteInfo = GuideMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD52BBD72D74238F00A3A43C /* GuideMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD52BBE82D74239000A3A43C /* GuideMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD52BBF22D74239000A3A43C /* GuideMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuideMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD52BBD92D74238F00A3A43C /* GuideMe */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuideMe;
+			sourceTree = "<group>";
+		};
+		DD52BBEB2D74239000A3A43C /* GuideMeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuideMeTests;
+			sourceTree = "<group>";
+		};
+		DD52BBF52D74239000A3A43C /* GuideMeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GuideMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD52BBD42D74238F00A3A43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52BBE52D74239000A3A43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52BBEF2D74239000A3A43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD52BBCE2D74238F00A3A43C = {
+			isa = PBXGroup;
+			children = (
+				DD52BBD92D74238F00A3A43C /* GuideMe */,
+				DD52BBEB2D74239000A3A43C /* GuideMeTests */,
+				DD52BBF52D74239000A3A43C /* GuideMeUITests */,
+				DD52BBD82D74238F00A3A43C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD52BBD82D74238F00A3A43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD52BBD72D74238F00A3A43C /* GuideMe.app */,
+				DD52BBE82D74239000A3A43C /* GuideMeTests.xctest */,
+				DD52BBF22D74239000A3A43C /* GuideMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD52BBD62D74238F00A3A43C /* GuideMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD52BBFC2D74239000A3A43C /* Build configuration list for PBXNativeTarget "GuideMe" */;
+			buildPhases = (
+				DD52BBD32D74238F00A3A43C /* Sources */,
+				DD52BBD42D74238F00A3A43C /* Frameworks */,
+				DD52BBD52D74238F00A3A43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD52BBD92D74238F00A3A43C /* GuideMe */,
+			);
+			name = GuideMe;
+			packageProductDependencies = (
+			);
+			productName = GuideMe;
+			productReference = DD52BBD72D74238F00A3A43C /* GuideMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD52BBE72D74239000A3A43C /* GuideMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD52BBFF2D74239000A3A43C /* Build configuration list for PBXNativeTarget "GuideMeTests" */;
+			buildPhases = (
+				DD52BBE42D74239000A3A43C /* Sources */,
+				DD52BBE52D74239000A3A43C /* Frameworks */,
+				DD52BBE62D74239000A3A43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD52BBEA2D74239000A3A43C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD52BBEB2D74239000A3A43C /* GuideMeTests */,
+			);
+			name = GuideMeTests;
+			packageProductDependencies = (
+			);
+			productName = GuideMeTests;
+			productReference = DD52BBE82D74239000A3A43C /* GuideMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD52BBF12D74239000A3A43C /* GuideMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD52BC022D74239000A3A43C /* Build configuration list for PBXNativeTarget "GuideMeUITests" */;
+			buildPhases = (
+				DD52BBEE2D74239000A3A43C /* Sources */,
+				DD52BBEF2D74239000A3A43C /* Frameworks */,
+				DD52BBF02D74239000A3A43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD52BBF42D74239000A3A43C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD52BBF52D74239000A3A43C /* GuideMeUITests */,
+			);
+			name = GuideMeUITests;
+			packageProductDependencies = (
+			);
+			productName = GuideMeUITests;
+			productReference = DD52BBF22D74239000A3A43C /* GuideMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD52BBCF2D74238F00A3A43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DD52BBD62D74238F00A3A43C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DD52BBE72D74239000A3A43C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DD52BBD62D74238F00A3A43C;
+					};
+					DD52BBF12D74239000A3A43C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DD52BBD62D74238F00A3A43C;
+					};
+				};
+			};
+			buildConfigurationList = DD52BBD22D74238F00A3A43C /* Build configuration list for PBXProject "GuideMe" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD52BBCE2D74238F00A3A43C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD52BBD82D74238F00A3A43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD52BBD62D74238F00A3A43C /* GuideMe */,
+				DD52BBE72D74239000A3A43C /* GuideMeTests */,
+				DD52BBF12D74239000A3A43C /* GuideMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD52BBD52D74238F00A3A43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52BBE62D74239000A3A43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52BBF02D74239000A3A43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD52BBD32D74238F00A3A43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52BBE42D74239000A3A43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD52BBEE2D74239000A3A43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD52BBEA2D74239000A3A43C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD52BBD62D74238F00A3A43C /* GuideMe */;
+			targetProxy = DD52BBE92D74239000A3A43C /* PBXContainerItemProxy */;
+		};
+		DD52BBF42D74239000A3A43C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD52BBD62D74238F00A3A43C /* GuideMe */;
+			targetProxy = DD52BBF32D74239000A3A43C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD52BBFA2D74239000A3A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD52BBFB2D74239000A3A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DD52BBFD2D74239000A3A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GuideMe/GuideMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuideMe/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNGWS63593;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GuideMe.GuideMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DD52BBFE2D74239000A3A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GuideMe/GuideMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GuideMe/Preview Content\"";
+				DEVELOPMENT_TEAM = ZNGWS63593;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GuideMe.GuideMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DD52BC002D74239000A3A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNGWS63593;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GuideMe.GuideMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuideMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuideMe";
+			};
+			name = Debug;
+		};
+		DD52BC012D74239000A3A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNGWS63593;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GuideMe.GuideMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuideMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GuideMe";
+			};
+			name = Release;
+		};
+		DD52BC032D74239000A3A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNGWS63593;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GuideMe.GuideMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GuideMe;
+			};
+			name = Debug;
+		};
+		DD52BC042D74239000A3A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZNGWS63593;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GuideMe.GuideMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GuideMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD52BBD22D74238F00A3A43C /* Build configuration list for PBXProject "GuideMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52BBFA2D74239000A3A43C /* Debug */,
+				DD52BBFB2D74239000A3A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD52BBFC2D74239000A3A43C /* Build configuration list for PBXNativeTarget "GuideMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52BBFD2D74239000A3A43C /* Debug */,
+				DD52BBFE2D74239000A3A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD52BBFF2D74239000A3A43C /* Build configuration list for PBXNativeTarget "GuideMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52BC002D74239000A3A43C /* Debug */,
+				DD52BC012D74239000A3A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD52BC022D74239000A3A43C /* Build configuration list for PBXNativeTarget "GuideMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD52BC032D74239000A3A43C /* Debug */,
+				DD52BC042D74239000A3A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD52BBCF2D74238F00A3A43C /* Project object */;
+}
